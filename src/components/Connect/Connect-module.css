@@ -1,0 +1,57 @@
+.container > p {
+  color: #bf1650;
+}
+
+.container > p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.container > input[type="text"] {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #1976d2;
+}
+
+.container > input[type="text"]:focus {
+  outline: none;
+}
+
+.container > label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #1976d2;
+}
+
+.container > input[type="submit"] {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  transition-duration: 0.5s;
+}
+
+.container > input[type="submit"]:hover {
+  width: 205px;
+  font-size: 19px;
+}

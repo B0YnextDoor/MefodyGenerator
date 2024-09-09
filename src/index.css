@@ -1,0 +1,42 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.inputField {
+    border-radius: 15px!important;
+    background: #F8FAFC;
+
+}
+
+.filepond--credits {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    /* Убирает подчеркивание */
+    color: black;
+    /* Изменяет цвет ссылок на черный */
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #3390ec #F9FAFC;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #3390ec;
+    border-radius: 27px;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,40 @@
+;@import "./generals/HorizontalLine/style.scss";
+
+
+.AccountTip {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.08);
+    
+    border-radius: 10px;
+    
+
+
+    .AccountLink {
+        font-weight: 400;
+        line-height: 16px;
+        text-align: center;
+        color: #6A6A6A;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+}
+
+.AccountButton {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #eee;
+    }
+}
+
+.HistoryCard {
+    transition: max-height 1s ease-in-out;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.HistoryCardContent {
+    transition: opacity 0.3s;
+}
